@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.btns button {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}

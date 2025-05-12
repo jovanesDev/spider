@@ -1,0 +1,11 @@
+.arrow {
+    color: red;
+    margin-right: 10px;
+}
+
+.container  { 
+   border: 1px solid #ccc;
+   border-radius: 4; 
+   margin-bottom: 10px;
+   width:100%
+}

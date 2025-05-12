@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Spider PUMA 🕷️",
+    "version": "1.0",
+    "description": "Una extensión hecha con React + Vite",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "permissions": ["scripting", "activeTab"]
+  }
+  
