@@ -38,7 +38,7 @@ const Popup = () => {
           target: { tabId: tabs[0].id },
           func: () => {
             try {
-              return localStorage.getItem("session");
+              return localStorage.getItem("Session");
             } catch (err) {
               console.log(err)
               return null;
@@ -53,7 +53,7 @@ const Popup = () => {
   
           const raw = results?.[0]?.result;
           if (!raw) {
-            toast.error("No se encontró session en el tab activo");
+            toast.error("No se encontró Session en el tab activo");
             return;
           }
   
@@ -100,7 +100,7 @@ const Popup = () => {
           target: { tabId: tabs[0].id },
           func: (data) => {
             try {
-              localStorage.setItem("session", JSON.stringify(data));
+              localStorage.setItem("Session", JSON.stringify(data));
               return true;
             } catch {
               return false;

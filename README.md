@@ -62,7 +62,7 @@ Esto creará una carpeta `dist/` lista para cargar en Chrome.
 
 La extensión usa el siguiente ícono:
 
-![Spider Icon](./icon.png)
+![Spider Icon](./public/icon.png)
 
 ---
 
